@@ -60,7 +60,7 @@ func createDsn() string {
 	dbUser := "myuser"
 	dbPassword := "mypassword"
 	dbName := "myappdb"
-	dbPort := ""
+	dbPort := "5432"
 
 	dsnFormat := "host=%s user=%s password=%s dbname=%s port=%s sslmode=disable"
 	return fmt.Sprintf(dsnFormat, dbHost, dbUser, dbPassword, dbName, dbPort)
