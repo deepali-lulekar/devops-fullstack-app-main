@@ -112,4 +112,4 @@ jobs:
           cluster-name: ${{ env.CLUSTER_NAME }}
 
       - name: Deploy Backend to AKS
-        run: kubectl apply -f manifest/backend-deployment.yaml
+        run: kubectl apply -f manifest/backend-deployment.yam
